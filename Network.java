@@ -4,7 +4,7 @@ public class Network
 {
 	public static void main(String[] args)
 	{
-		String os = System.getProperty("os.name");
+		/*String os = System.getProperty("os.name");
 		String consoleEncoding = System.getProperty("console.encoding", os.startsWith("Windows") ? "cp866" : "utf-8");
 		Scanner in = new Scanner(System.in, consoleEncoding);
 		
@@ -82,6 +82,30 @@ public class Network
 		Human[0].AdditionSapces();
 		//Output
 		System.out.println("Friend: ");
-		System.out.println(Human[0].returned());
+		System.out.println(Human[0].returned());*/
+		System.out.print("Лабраторная 8:\n\n");
+		System.out.print("=========\nМодифицировать ваши проекты на С++, C# и Java путем добавления в один из классов\nкак минимум одного статического поля и одного статического метода.\n=========\n\n");
+
+		System.out.print("(Использовались статический член класса\'Mark\' \'lastMark\'и\nстатические методы класса \'NewList\' и \'reprint\')\n\n");
+		//Set Like:
+	Like A = new Like(1);
+	Like B = new Like(2);
+	Like C = new Like(3);
+	Like D = new Like(4);
+	
+		System.out.print("Вызов статической компанентной функции: \'Новый список\'\n\n");
+	//Init
+	A.NewL();
+		System.out.print("Вызов статической компанентной функции: \'Напечатать список\'\n\n");
+	//reprint
+	D.reprint();
+	System.out.print("\n\nДобавление элементов в список.\n\n");
+	//Add
+	A.Add(); B.Add(); C.Add(); D.Add();
+	System.out.print("Вызов статической компанентной функции: \'Напечатать список\'\n\n");
+	System.out.print("===================================\n");
+	//reprint:
+	D.reprint();
+	System.out.print("\n===================================\n");
 	}
 }

@@ -72,7 +72,7 @@ public void Add()
 }
 
 //Print
-public void reprint()
+public static void reprint()
 {
     Like uk;   // Вспомогательный ссылка
     uk = lastLike;
@@ -92,7 +92,7 @@ public void reprint()
     }
 }
 
-public void NewL()
+public static void NewL()
 {
 	lastLike = null;
 }
