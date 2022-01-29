@@ -49,6 +49,17 @@ public void InpLike()
 	in.close();
 }
 
+	//Surface copy
+    public Like ShallowCopy()
+    {
+        return (Like)this;
+    }
+
+    //Offer Builder (Deep Copy)
+    public Like(Like otherLike)
+    {
+        amount = otherLike.amount;
+    }
 
 
 //Output

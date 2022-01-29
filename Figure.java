@@ -11,6 +11,30 @@ public class Figure
 	figure = 0; //Figure
 	color = 0; //color
 }
+
+
+public Figure(int FIGURE) //constructor 1
+{
+	figure = FIGURE; //Figure
+	color = 0; //color
+}
+
+public Figure(int FIGURE, int COLOR) //constructor all
+{
+	figure = FIGURE; //Figure
+	color = COLOR; //color
+}
+
+public void Setfigure(int FIGURE) //Set figure
+{
+	figure = FIGURE; //Figure
+}
+
+public void Setcolor(int COLOR) //Set color
+{
+	color = COLOR; //color
+}
+
 //Get
 public int Getfigure()
 {

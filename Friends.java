@@ -13,6 +13,29 @@ public class Friends
 	surname = ""; //surname
 }
 
+public Friends(String NAME) //constructor 1
+{
+	name = NAME; //name
+	surname = ""; //surname
+}
+
+public Friends(String NAME, String SURNAME) //constructor all
+{
+	name = NAME; //name
+	surname = SURNAME; //surname
+}
+
+public void Setname(String NAME) //Set name
+{
+	name = NAME; //name
+}
+
+public void Setsurname(String SURNAME) //Set surname
+{
+	surname = SURNAME; //surname
+}
+
+
 //Get
 public String Getname()
 {

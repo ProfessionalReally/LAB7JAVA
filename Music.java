@@ -12,6 +12,29 @@ public class Music
 	executor = ""; //executor
 }
 
+public Music(String TITLE) //constructor 1
+{
+	title = TITLE; //title
+	executor = ""; //executor
+}
+
+public Music(String TITLE, String EXECUTOR) //constructor all
+{
+	title = TITLE; //title
+	executor = EXECUTOR; //executor
+}
+
+public void Settitle(String TITLE) //Set title
+{
+	title = TITLE; //title
+}
+
+public void Setexecutor(String EXECUTOR) //Set executor
+{
+	executor = EXECUTOR; //executor
+}
+
+
 //GET
 public String Gettitle()
 {

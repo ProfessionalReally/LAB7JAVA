@@ -14,8 +14,38 @@ public class Messages
 	message = ""; //text message
 }
 
-//GET
+Messages(String TOWHOM) //constructor 1
+{
+	toWhom = TOWHOM; //to whom message
+	fromWhom = ""; //from whom message
+	message = ""; //text message
+}
 
+Messages(String TOWHOM, String FROMWHOM, String MESSAGE) //constructor all
+{
+	toWhom = TOWHOM; //to whom message
+	fromWhom = FROMWHOM; //from whom message
+	message = MESSAGE; //text message
+}
+
+void SettoWhom(String TOWHOM) //Set to whom message
+{
+	toWhom = TOWHOM; //to whom message
+}
+
+void SetfromWhom(String FROMWHOM) //Set from whom message
+{
+	fromWhom = FROMWHOM; //from whom message
+}
+
+void Setmessage(String MESSAGE) //Set text message
+{
+	message = MESSAGE; //text message
+}
+
+
+
+//GET
 public String GettoWhom()
 {
 	return this.toWhom;

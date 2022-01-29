@@ -45,6 +45,72 @@ public class Account
 	 amount = 0;
 }
 
+	public Account(String NAME) //constructor 1
+{
+	 name = NAME; //name
+	 surname = ""; //surname
+	 email = ""; //email
+	 password = ""; //password
+	 FigureFigure = 0;
+	 FigureColor = 0;
+	 for (int i = 0; i < 2; i++)
+	 {
+	 FriendsName[i] = "";
+	 FriendsSurname[i] = "";
+	 MusicTitle[i] = "";
+	 MusicExecutor[i] = "";
+	 }
+	 MessagestoWhom = "";
+	 MessagesfromWhom = "";
+	 Messagesmessage = "";
+	 amount = 0;
+}
+
+	public Account(String NAME, String SURNAME, String EMAIL, String PASSWORD) //constructor all
+{
+	 name = NAME; //name
+	 surname = ""; //surname
+	 email = ""; //email
+	 password = ""; //password
+	 FigureFigure = 0;
+	 FigureColor = 0;
+	 for (int i = 0; i < 2; i++)
+	 {
+	 FriendsName[i] = "";
+	 FriendsSurname[i] = "";
+	 MusicTitle[i] = "";
+	 MusicExecutor[i] = "";
+	 }
+	 MessagestoWhom = "";
+	 MessagesfromWhom = "";
+	 Messagesmessage = "";
+	 amount = 0;
+}
+
+//Set name
+public void Setname(String NAME)
+{
+	name = NAME;
+}
+
+//Set surname
+public void Setsurname(String SURNAME)
+{
+	surname = SURNAME;
+}
+
+//Set email
+public void Setemail(String EMAIL)
+{
+	email = EMAIL;
+}
+
+//Set password
+public void Setpassword(String PASSWORD)
+{
+	password = PASSWORD;
+}
+
 //Get
 public String Getname()
 {
