@@ -235,7 +235,7 @@ public class Network
 		likeTestCopy1.Displayamount();
 		likeTestCopy2.Displayamount();
 		System.out.println("\n\n");*/
-		Like like1 = new Like();
+		/*Like like1 = new Like();
 
 		System.out.println("Лабораторная 10\n");
 		System.out.println("Введите количество оценок - число в пределах от 0 до бессконечности!\n");
@@ -246,6 +246,50 @@ public class Network
 		}
 
 		System.out.println("Введенное количество оценок: " + like1.Get());
+*/
+
+	Like[] like1 = new Like[3]; Like [][] like2 = new Like[2][2];
+
+		like1[0] = new Like();
+		like1[1] = new Like();
+		like1[2] = new Like();
+
+		for (int i = 0; i < 2; i++)
+			for (int j = 0; j < 2; j++)
+				like2[i][j] = new Like();
+
+
+		// Присваивание
+		//=================================
+		like1[0].Set(3);
+		like1[1].Set(4);
+		like1[2].Set(5);
+
+		int bases = 4;
+
+		for (int i = 0; i < 2; i++)
+			for (int j = 0; j < 2; j++)
+				like2[i][j].Set(bases + j);
+		//=================================
+
+		// Вывод
+		//=================================
+		System.out.println("Одномерный массив размером [3]");
+		for (int i = 0; i < 3; i++)
+		{
+			like1[i].Displayamount();
+			System.out.println();
+		}
+		System.out.println();
+
+		System.out.println("Двумерный массив размером [2][2]");
+		for (int i = 0; i < 2; i++)
+			for (int j = 0; j < 2; j++)
+			{
+				like2[i][j].Displayamount();
+				System.out.println();
+			}
+		//=================================
 
 
 	}
