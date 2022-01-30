@@ -107,7 +107,7 @@ public class Network
 	//reprint:
 	D.reprint();
 	System.out.print("\n===================================\n");*/
-		Account account1 = new Account();
+		/*Account account1 = new Account();
 		Account account2 = new Account("Artur");
 		Account account3 = new Account("Nikolay", "Ivanov", "NikolayIvanov@yandex.ru", "123");
 
@@ -234,7 +234,19 @@ public class Network
 		likeTestCopy1.Set(3);
 		likeTestCopy1.Displayamount();
 		likeTestCopy2.Displayamount();
-		System.out.println("\n\n");
+		System.out.println("\n\n");*/
+		Like like1 = new Like();
+
+		System.out.println("Лабораторная 10\n");
+		System.out.println("Введите количество оценок - число в пределах от 0 до бессконечности!\n");
+
+		while (like1.Get() == 0)
+		{
+			like1.InpLike();
+		}
+
+		System.out.println("Введенное количество оценок: " + like1.Get());
+
 
 	}
 }

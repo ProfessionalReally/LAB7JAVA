@@ -17,13 +17,19 @@ public Like()
 // Constructor
 public Like(int AMOUNT)
 {
-    this.amount = AMOUNT;
+    this.amount = 0;
+        if (IsRightLike(AMOUNT))
+            this.amount = AMOUNT;
+
 }
 
 //Init(SET)
 public void Set(int v)
 {
-    amount = v;
+    this.amount = 0;
+        if (IsRightLike(v))
+            this.amount = v;
+
 }
 
 //GET
@@ -43,11 +49,46 @@ public Account GetLike()
 public void InpLike()
 {
 	Scanner in = new Scanner(System.in);
-    System.out.print("Please enter a amount likes: ");
-    amount = in.nextInt();
-    System.out.println();
-	in.close();
+    	String str = new String();
+    	int number = 0;
+
+    	System.out.print("Enter amount likes:  ");
+        try                                                         
+        {
+        	if (in.hasNextInt()) 
+			{
+		      	 	number = in.nextInt();
+		      	 	str = in.nextLine();
+		      	 	Set(number);
+		   	} 
+        	else
+        		throw new Exception("It string is not number!");       
+        }
+        catch (Exception ex)                       
+        {
+        	System.out.print("Error: " + ex.getMessage() + '\n');
+        }
 }
+
+
+//Cheak int or not
+    public boolean IsRightLike(int like)
+    {
+        boolean res = true;
+        try                                                    
+        {
+            if (like < 0)                          
+                throw new Exception("Incorrect amount.");       
+            return res;
+        }
+        catch (Exception ex)           						  
+        {
+        	System.out.println("Error: " + ex.getMessage() + '\n');
+            res = false;
+            return res;
+        }
+    }
+
 
 	//Surface copy
     public Like ShallowCopy()
