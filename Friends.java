@@ -1,28 +1,31 @@
 import java.util.Scanner;
 
 //Class Friends
-public class Friends
+public class Friends extends Human implements IHuman
 {
 	
-	private String name = ""; //name
-	private String surname = ""; //surname
+	//private String name = ""; //name
+	//private String surname = ""; //surname
 	
 	public Friends() //constructor
 {
-	name = ""; //name
-	surname = ""; //surname
+	super("", "");
+	//name = ""; //name
+	//surname = ""; //surname
 }
 
 public Friends(String NAME) //constructor 1
 {
-	name = NAME; //name
-	surname = ""; //surname
+	super(NAME, "");
+	//name = NAME; //name
+	//surname = ""; //surname
 }
 
 public Friends(String NAME, String SURNAME) //constructor all
 {
-	name = NAME; //name
-	surname = SURNAME; //surname
+	super(NAME, SURNAME);
+	//name = NAME; //name
+	//surname = SURNAME; //surname
 }
 
 public void Setname(String NAME) //Set name
@@ -34,7 +37,6 @@ public void Setsurname(String SURNAME) //Set surname
 {
 	surname = SURNAME; //surname
 }
-
 
 //Get
 public String Getname()
@@ -53,7 +55,7 @@ public void InitFriends(String NAME, String SURNAME)
 	this.surname = SURNAME;
 }
 //Input
-public void InputFriends() 
+@Override public void InpHuman() 
 {
 	String os = System.getProperty("os.name");
         String consoleEncoding = System.getProperty("console.encoding", os.startsWith("Windows") ? "cp866" : "utf-8");
@@ -66,18 +68,10 @@ public void InputFriends()
 	in.close();
 }
 //Output
-public void OutputFriends() 
+public void DisplayInfo() 
 {
-	if (name == "" && surname == "")
-	{
-		System.out.println("Your friend's name: Empty");
-		System.out.println("Your friend's surname: Empty");
-	}
-	else
-	{
 		System.out.println("Your friend's name: " + name);
 		System.out.println("Your friend's surname: " + surname);
-	}
 	System.out.println("");
 }
 //Delete
@@ -99,5 +93,42 @@ public String returned()
 {
 	return (name + surname);
 }
+
+
+	public String FirstSimbFromFIO()
+	{
+		return (name.substring(0, 0) + surname.substring(0, 0));
+	}
+	
+	
+	@Override public String WhoIs()
+    {
+        return "друг";
+    }
+
+    
+    public void SayHello()
+    {
+    	System.out.println( WhoIs() + " говорит привет!");
+    }
+    
+    
+	public String ToString()
+	{
+		return (name + " " + surname);
+	}
+
+    public Friends ShallowCopy()
+    {
+        return (Friends)this;
+    }
+
+    
+    public Friends(Friends otherMark)
+    {
+        name = otherMark.name;
+        surname = otherMark.surname;
+    }
+    
 	
 }

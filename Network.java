@@ -8,9 +8,9 @@ public class Network
 		String consoleEncoding = System.getProperty("console.encoding", os.startsWith("Windows") ? "cp866" : "utf-8");
 		Scanner in = new Scanner(System.in, consoleEncoding);
 		
-		System.out.println("6) Продемонстрировать работу с массивом объектов");
+		System.out.println("6) я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ рабя┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜сивя┐╜я┐╜ я┐╜я┐╜ъектов");
 		System.out.println("===========================================================================================");
-		System.out.println("На примере объектов класса лайк");
+		System.out.println("я┐╜я┐╜ я┐╜римя┐╜я┐╜ я┐╜я┐╜ъектов я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜");
 		
 		//Set
 		Friends[] Human = new Friends[2];
@@ -27,9 +27,9 @@ public class Network
 		Human[0].OutputFriends();
 		Human[1].OutputFriends();
 		
-		System.out.println("7) Продемонстрировать возврат целочисленного значения из метода через вспомогательный класс");
+		System.out.println("7) я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ целя┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ченя┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜тодя┐╜ я┐╜рез я┐╜споя┐╜я┐╜я┐╜я┐╜теля┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜");
 		System.out.println("===========================================================================================");
-		System.out.println("На примере объектов класса Account и Like");
+		System.out.println("я┐╜я┐╜ я┐╜римя┐╜я┐╜ я┐╜я┐╜ъектов я┐╜я┐╜я┐╜я┐╜я┐╜ Account я┐╜ Like");
 		//Set
 		Like likeA = new Like();
 		Account account = new Account();
@@ -49,9 +49,9 @@ public class Network
 		System.out.println("");
 		account.OutputAccount();
 		
-		System.out.println("8) Продемонстрировать разумное использование оператора this");
+		System.out.println("8) я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ разумня┐╜я┐╜ я┐╜споя┐╜ьзоя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ this");
 		System.out.println("===========================================================================================");
-		System.out.println("На примере класса Like");
+		System.out.println("я┐╜я┐╜ я┐╜римя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Like");
 	//Set Like:
 	Like A = new Like(1);
 	Like B = new Like(2);
@@ -71,9 +71,9 @@ public class Network
 	D.reprint();
 
 
-		System.out.println("9) Продемонстрировать обработку строк (String)");
+		System.out.println("9) я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ я┐╜я┐╜рабя┐╜я┐╜я┐╜ я┐╜я┐╜рок (String)");
 		System.out.println("===========================================================================================");
-		System.out.println("На примере класса Friends, сравнение строк\n");
+		System.out.println("я┐╜я┐╜ я┐╜римя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Friends, я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜рок\n");
 		//Init	
 		Human[0].InitFriends("Artur", "Osipov");
 		//Output
@@ -83,26 +83,26 @@ public class Network
 		//Output
 		System.out.println("Friend: ");
 		System.out.println(Human[0].returned());*/
-		/*System.out.print("Лабраторная 8:\n\n");
-		System.out.print("=========\nМодифицировать ваши проекты на С++, C# и Java путем добавления в один из классов\nкак минимум одного статического поля и одного статического метода.\n=========\n\n");
+		/*System.out.print("я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 8:\n\n");
+		System.out.print("=========\nя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜роея┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜++, C# я┐╜ Java я┐╜я┐╜тем я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜сов\nя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜скоя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜скоя┐╜я┐╜ я┐╜я┐╜тодя┐╜.\n=========\n\n");
 
-		System.out.print("(Использовались статический член класса\'Mark\' \'lastMark\'и\nстатические методы класса \'NewList\' и \'reprint\')\n\n");
+		System.out.print("(я┐╜споя┐╜ьзоя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ския┐╜ члея┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜\'Mark\' \'lastMark\'я┐╜\nя┐╜я┐╜я┐╜я┐╜ския┐╜ я┐╜я┐╜тодя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ \'NewList\' я┐╜ \'reprint\')\n\n");
 		//Set Like:
 	Like A = new Like(1);
 	Like B = new Like(2);
 	Like C = new Like(3);
 	Like D = new Like(4);
 	
-		System.out.print("Вызов статической компанентной функции: \'Новый список\'\n\n");
+		System.out.print("я┐╜ызоя┐╜ я┐╜я┐╜я┐╜я┐╜скоя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тноя┐╜ я┐╜ункции: \'я┐╜я┐╜я┐╜я┐╜ список\'\n\n");
 	//Init
 	A.NewL();
-		System.out.print("Вызов статической компанентной функции: \'Напечатать список\'\n\n");
+		System.out.print("я┐╜ызоя┐╜ я┐╜я┐╜я┐╜я┐╜скоя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тноя┐╜ я┐╜ункции: \'я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ список\'\n\n");
 	//reprint
 	D.reprint();
-	System.out.print("\n\nДобавление элементов в список.\n\n");
+	System.out.print("\n\nя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тов я┐╜ список.\n\n");
 	//Add
 	A.Add(); B.Add(); C.Add(); D.Add();
-	System.out.print("Вызов статической компанентной функции: \'Напечатать список\'\n\n");
+	System.out.print("я┐╜ызоя┐╜ я┐╜я┐╜я┐╜я┐╜скоя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тноя┐╜ я┐╜ункции: \'я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ список\'\n\n");
 	System.out.print("===================================\n");
 	//reprint:
 	D.reprint();
@@ -111,14 +111,14 @@ public class Network
 		Account account2 = new Account("Artur");
 		Account account3 = new Account("Nikolay", "Ivanov", "NikolayIvanov@yandex.ru", "123");
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Конструкторы класса Account:");
-		System.out.println("1) Конструктор без параметров:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Account:");
+		System.out.println("1) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ров:");
 		account1.OutputAccount();
-		System.out.println("2) Конструктор с 1-им параметром:");
+		System.out.println("2) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром:");
 		account2.OutputAccount();
-		System.out.println("3) Конструктор с параметрами:");
+		System.out.println("3) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜рамя┐╜я┐╜рамя┐╜:");
 		account3.OutputAccount();
 		System.out.println("\n\n");
 		
@@ -126,14 +126,14 @@ public class Network
 		Figure figure2 = new Figure(1);
 		Figure figure3 = new Figure(2,3);
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Конструкторы класса figure:");
-		System.out.println("1) Конструктор без параметров:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ figure:");
+		System.out.println("1) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ров:");
 		figure1.OutputFigure();
-		System.out.println("2) Конструктор с 1-им параметром:");
+		System.out.println("2) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром:");
 		figure2.OutputFigure();
-		System.out.println("3) Конструктор с параметрами:");
+		System.out.println("3) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜рамя┐╜я┐╜рамя┐╜:");
 		figure3.OutputFigure();
 		System.out.println("\n\n");
 		
@@ -141,14 +141,14 @@ public class Network
 		Friends friend2 = new Friends("Egor");
 		Friends friend3 = new Friends("Gloria", "Jean");
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Конструкторы класса Friends:");
-		System.out.println("1) Конструктор без параметров:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Friends:");
+		System.out.println("1) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ров:");
 		friend1.OutputFriends();
-		System.out.println("2) Конструктор с 1-им параметром:");
+		System.out.println("2) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром:");
 		friend2.OutputFriends();
-		System.out.println("3) Конструктор с параметрами:");
+		System.out.println("3) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜рамя┐╜я┐╜рамя┐╜:");
 		friend3.OutputFriends();
 		System.out.println("\n\n");
 		
@@ -156,68 +156,68 @@ public class Network
 		Music music2 = new Music("Not Afraid");
 		Music music3 = new Music("Here We Go", "Eminem");
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Конструкторы класса Music:");
-		System.out.println("1) Конструктор без параметров:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Music:");
+		System.out.println("1) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ров:");
 		music1.OutputMusic();
-		System.out.println("2) Конструктор с 1-им параметром:");
+		System.out.println("2) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром:");
 		music2.OutputMusic();
-		System.out.println("3) Конструктор с параметрами:");
+		System.out.println("3) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜рамя┐╜я┐╜рамя┐╜:");
 		music3.OutputMusic();
 		System.out.println("\n\n");
 		
 		Messages message1 = new Messages();
 		Messages message2 = new Messages("Nikolay Krasnov");
-		Messages message3 = new Messages("My teacher", "Student", "Good morning!");
+		Messages message3 = new Messages("My Friends", "Student", "Good morning!");
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Конструкторы класса Messages:");
-		System.out.println("1) Конструктор без параметров:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Messages:");
+		System.out.println("1) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ров:");
 		message1.OutputMessages();
-		System.out.println("2) Конструктор с 1-им параметром:");
+		System.out.println("2) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром:");
 		message2.OutputMessages();
-		System.out.println("3) Конструктор с параметрами:");
+		System.out.println("3) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜рамя┐╜я┐╜рамя┐╜:");
 		message3.OutputMessages();
 		System.out.println("\n\n");
 		
 		
 		Like like1 = new Like(), like2 = new Like(3);
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Конструкторы класса Like:");
-		System.out.println("1) Конструктор без параметров:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ Like:");
+		System.out.println("1) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ров:");
 		like1.Displayamount();
-		System.out.println("2) Конструктор с 1-им параметром, он же с параметрами:");
+		System.out.println("2) я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром, я┐╜я┐╜ я┐╜я┐╜ я┐╜ я┐╜я┐╜рамя┐╜я┐╜рамя┐╜:");
 		like2.Displayamount();
 		System.out.println("\n\n");
 
 
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
 		Friends[] friends = new Friends[3];
 		for (int j = 0; j < 3; j++)
 			friends[j] = new Friends("Ivanov" + (j + 1));
-		System.out.println("Инициализировать небольшой массив конструктором с одним параметром:");
+		System.out.println("я┐╜я┐╜я┐╜циая┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜шой я┐╜я┐╜я┐╜сив я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ром я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜рамя┐╜я┐╜ром:");
 		for (int j = 0; j < 3; j++)
 			friends[j].OutputFriends();
 		System.out.println("\n\n");
 		
 		
-		System.out.println("Лабораторная 9");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 9");
 		System.out.println();
-		System.out.println("Продемонстрировать различие между мелким и глубоким копированием:");
+		System.out.println("я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ разя┐╜я┐╜чие я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜убоя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜я┐╜я┐╜:");
 		Like likeTestCopy1 = new Like(4), likeTestCopy2 = new Like(5);
 
 		likeTestCopy2 = likeTestCopy1;
 
-		System.out.println("Поверхностная копия 1-го объекта во 2-ой:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜хноя┐╜тная┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜ъекя┐╜ я┐╜я┐╜ 2-я┐╜я┐╜:");
 		likeTestCopy1.Displayamount();
 		likeTestCopy2.Displayamount();
 		System.out.println("");
-		System.out.println("Изменение 1-го объекта, а 2-ой не трогается:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜ъекя┐╜, я┐╜ 2-я┐╜я┐╜ я┐╜я┐╜ я┐╜рогя┐╜я┐╜я┐╜я┐╜я┐╜:");
 		likeTestCopy1.Set(3);
 		likeTestCopy1.Displayamount();
 		likeTestCopy2.Displayamount();
@@ -226,29 +226,29 @@ public class Network
 		likeTestCopy1.Set(4);
 		likeTestCopy2 = new Like(likeTestCopy1);
 
-		System.out.println("Глубокая копия 1-го объекта во 2-ой:");
+		System.out.println("я┐╜я┐╜убоя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜ъекя┐╜ я┐╜я┐╜ 2-я┐╜я┐╜:");
 		likeTestCopy1.Displayamount();
 		likeTestCopy2.Displayamount();
 		System.out.println("");
-		System.out.println("Изменение 1-го объекта, а 2-ой не трогается:");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 1-я┐╜я┐╜ я┐╜я┐╜ъекя┐╜, я┐╜ 2-я┐╜я┐╜ я┐╜я┐╜ я┐╜рогя┐╜я┐╜я┐╜я┐╜я┐╜:");
 		likeTestCopy1.Set(3);
 		likeTestCopy1.Displayamount();
 		likeTestCopy2.Displayamount();
 		System.out.println("\n\n");*/
 		/*Like like1 = new Like();
 
-		System.out.println("Лабораторная 10\n");
-		System.out.println("Введите количество оценок - число в пределах от 0 до бессконечности!\n");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ 10\n");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тво я┐╜ценя┐╜я┐╜ - я┐╜сло я┐╜ я┐╜редя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ 0 я┐╜я┐╜ я┐╜я┐╜я┐╜скоя┐╜я┐╜чноя┐╜я┐╜!\n");
 
 		while (like1.Get() == 0)
 		{
 			like1.InpLike();
 		}
 
-		System.out.println("Введенное количество оценок: " + like1.Get());
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тво я┐╜ценя┐╜я┐╜: " + like1.Get());
 */
 
-	Like[] like1 = new Like[3]; Like [][] like2 = new Like[2][2];
+	/*Like[] like1 = new Like[3]; Like [][] like2 = new Like[2][2];
 
 		like1[0] = new Like();
 		like1[1] = new Like();
@@ -259,7 +259,7 @@ public class Network
 				like2[i][j] = new Like();
 
 
-		// Присваивание
+		// я┐╜я┐╜свая┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
 		//=================================
 		like1[0].Set(3);
 		like1[1].Set(4);
@@ -272,9 +272,9 @@ public class Network
 				like2[i][j].Set(bases + j);
 		//=================================
 
-		// Вывод
+		// я┐╜ывоя┐╜
 		//=================================
-		System.out.println("Одномерный массив размером [3]");
+		System.out.println("я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜сив разя┐╜я┐╜ром [3]");
 		for (int i = 0; i < 3; i++)
 		{
 			like1[i].Displayamount();
@@ -282,7 +282,7 @@ public class Network
 		}
 		System.out.println();
 
-		System.out.println("Двумерный массив размером [2][2]");
+		System.out.println("я┐╜я┐╜умея┐╜я┐╜ я┐╜я┐╜я┐╜сив разя┐╜я┐╜ром [2][2]");
 		for (int i = 0; i < 2; i++)
 			for (int j = 0; j < 2; j++)
 			{
@@ -290,7 +290,131 @@ public class Network
 				System.out.println();
 			}
 		//=================================
+*/	
+				
+				
+				/*Human human1 = new Human("Ivan", "Ivanov");
+				
+						
+					System.out.println("3) ╨Я╤А╨╛╨┤╨╡╨╝╨╛╨╜╤Б╤В╤А╨╕╤А╨╛╨▓╨░╤В╤М ╨┐╨╡╤А╨╡╨│╤А╤Г╨╖╨║╤Г ╨╝╨╡╤В╨╛╨┤╨░ ╨▒╨░╨╖╨╛╨▓╨╛╨│╨╛");
+					System.out.println("  ╨║╨╗╨░╤Б╤Б╨░ ╨▓ ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨┤╨╜╨╛╨╝ ╨║╨╗╨░╤Б╤Б╨╡(╤Б ╨▓╤Л╨╖╨╛╨▓╨╛╨╝ ╨╝╨╡╤В╨╛╨┤╨░ ╨▒╨░╨╖╨╛╨▓╨╛╨│╨╛");
+					System.out.println("  ╨║╨╗╨░╤Б╤Б╨░ ╨╕ ╨▒╨╡╨╖ ╤В╨░╨║╨╛╨│╨╛ ╨▓╤Л╨╖╨╛╨▓╨░)\n");
+				
+						human1.DisplayInfo();
+						friend1.DisplayInfo();
+						System.out.println();
+						human1.SayHello();
+						friend1.SayHello();
+						System.out.println(human1.WhoIs());
+						System.out.println(friend1.WhoIs());
+	
+						*/
+						/*Friends friend1 = new Friends("Anton", "Antonov");
+						friend1.DisplayInfo();
+						*/
+						/*Friends friend1 = new Friends("Anton", "Antonov");
+						System.out.println("6) ╨Ч╨░╨╝╨╡╨╜╨╕╤В╤М ╨╝╨╡╤В╨╛╨┤╤Л Display ╨╕╤Б╨┐╨╛╨╗╤М╨╖╤Г╤П ╨╝╨╡╤В╨╛╨┤ toString ╨┤╨╗╤П Java\n");
+						System.out.println("Name and Surname: " + friend1.ToString());
+						*/
+						/*Friends friend1 = new Friends("Anton", "Antonov");
+						Human human1 = new Human("Ivan", "Ivanov");
+			System.out.println("7) ╨Я╤А╨╕╨┤╤Г╨╝╨░╤В╤М ╤А╨░╨╖╤Г╨╝╨╜╨╛╨╡ ╨╕╤Б╨┐╨╛╨╗╤М╨╖╨╛╨▓╨░╨╜╨╕╨╡ ╨▓╨╕╤А╤В╤Г╨░╨╗╤М╨╜╤Л╤Е ╤Д╤Г╨╜╨║╤Ж╨╕╨╣ ╨╕ ╤Б╨╛╨╖╨┤╨░╤В╤М ╨╕╤Е ╨▓ ╨▓╨░╤И╨╡╨╝ ╨┐╤А╨╛╨╡╨║╤В╨╡.\n");
 
+		human1.DisplayInfo();
+		friend1.DisplayInfo();
+		System.out.println();
+		human1.SayHello();
+		friend1.SayHello();
+
+		Human Humane = new Human("Anatoliy", "Sidorov");
+		Friends Friend = new Friends("Vladimir", "Smirnov");
+		Human pHumane = Friend;
+		Friends pFriend = Friend;
+		Human pHumane2 = Humane;
+
+		System.out.println("========================================================");
+		System.out.println();
+		System.out.println("╨Ю╨▒╤К╨╡╨║╤В ╨║╨╗╨░╤Б╤Б╨░ Friends");
+		Friend.DisplayInfo();
+		System.out.println();
+		System.out.println("╨г╨║╨░╨╖╨░╤В╨╡╨╗╤М ╨║╨╗╨░╤Б╤Б╨░ Human ╨╜╨░ ╨║╨╗╨░╤Б╤Б Friends");
+		pHumane.DisplayInfo();
+		System.out.println();
+		System.out.println("╨г╨║╨░╨╖╨░╤В╨╡╨╗╤М ╨║╨╗╨░╤Б╤Б╨░ Human ╨╜╨░ ╨║╨╗╨░╤Б╤Б Friends");
+		pHumane2.DisplayInfo();
+		System.out.println();
+		System.out.println("╨Т╤Л╨╖╨╛╨▓ ╨▓╨╕╤А╤В╤Г╨░╨╗╤М╨╜╨╛╨╣ ╤Д╤Г╨╜╨║╤Ж╨╕╨╕ ╤З╨╡╤А╨╡╨╖ ╨╜╨╡ ╨▓╨╕╤А╤В╤Г╨░╨╗╤М╨╜╤Г╤О ╨▒╨░╨╖╨╛╨▓╨╛╨│╨╛ ╨║╨╗╨░╤Б╤Б╨░");
+		System.out.println("╨╛╤В ╨╛╨▒╤К╨╡╨║╤В╨░ ╨║╨╗╨░╤Б╤Б╨░ Friends");
+		Friend.SayHello();
+		System.out.println();
+		System.out.println("╨Т╤Л╨╖╨╛╨▓ ╨▓╨╕╤А╤В╤Г╨░╨╗╤М╨╜╨╛╨╣ ╤Д╤Г╨╜╨║╤Ж╨╕╨╕ ╤З╨╡╤А╨╡╨╖ ╨╜╨╡ ╨▓╨╕╤А╤В╤Г╨░╨╗╤М╨╜╤Г╤О ╨▒╨░╨╖╨╛╨▓╨╛╨│╨╛ ╨║╨╗╨░╤Б╤Б╨░");
+		System.out.println("╨╛╤В ╨╛╨▒╤К╨╡╨║╤В╨░ ╨║╨╗╨░╤Б╤Б╨░ Human");
+		Humane.SayHello();
+		System.out.println();
+		System.out.println("╨╛╤В ╤Г╨║╨░╨╖╨░╤В╨╡╨╗╤П Human ╨╜╨░ ╨╛╨▒╤К╨╡╨║╤В ╨║╨╗╨░╤Б╤Б╨░ Friends");
+		System.out.println(pHumane.WhoIs());
+		System.out.println();
+		System.out.println("╨╛╤В ╤Г╨║╨░╨╖╨░╤В╨╡╨╗╤П Human ╨╜╨░ ╨╛╨▒╤К╨╡╨║╤В ╨║╨╗╨░╤Б╤Б╨░ Human");
+		System.out.println(pHumane2.WhoIs());
+		System.out.println();
+		System.out.println("╨╛╤В ╤Г╨║╨░╨╖╨░╤В╨╡╨╗╤П Friends ╨╜╨░ ╨╛╨▒╤К╨╡╨║╤В ╨║╨╗╨░╤Б╤Б╨░ Friends");
+		System.out.println(pFriend.WhoIs());
+ 
+		/*Friends friend1 = new Friends("Marina","Ivanova");
+		System.out.println("8) ╨Т ╨┐╤А╨╛╨╡╨║╤В╨░╤Е ╨╜╨░ C++,  Java, C# ╨┐╤А╨╕╨┤╤Г╨╝╨░╤В╤М ╤А╨░╨╖╤Г╨╝╨╜╨╛╨╡ ╨╕╤Б╨┐╨╛╨╗╤М╨╖╨╛╨▓╨░╨╜╨╕\n╨░╨▒╤Б╤В╤А╨░╨║╤В╨╜╨╛╨│╨╛ ╨║╨╗╨░╤Б╤Б╨░ ╨╕ ╤Б╨╛╨╖╨┤╨░╤В╤М ╨╡╨│╨╛. ╨Я╤А╨╛╨┤╨╡╨╝╨╛╨╜╤Б╤В╤А╨╕╤А╨╛╨▓╨░╤В╤М ╨╡╨│╨╛ ╨╕╤Б╨┐╨╛╨╗╤М╨╖╨╛╨▓╨░╨╜╨╕╨╡;\n");
+		friend1.InpHuman();
+		System.out.println();
+		friend1.DisplayInfo();
+*/
+	/*	Friends friend1 = new Friends("Anton", "Antonov");
+	    Account account1 = new Account();
+	    account1.SetSurname("Gerasimov");
+	    account1.SetName("Nikolay");
+	    
+
+		System.out.println("9) ╨Т  ╨┐╤А╨╛╨╡╨║╤В╨░╤Е Java, C# ╨┐╤А╨╕╨┤╤Г╨╝╨░╤В╤М ╤А╨░╨╖╤Г╨╝╨╜╨╛╨╡ ╨╕╤Б╨┐╨╛╨╗╤М╨╖╨╛╨▓╨░╨╜╨╕╨╡ ╨╕╨╜╤В╨╡╤А╤Д╨╡╨╣╤Б╨╛╨▓.\n╨Я╤А╨╛╨┤╨╡╨╝╨╛╨╜╤Б╤В╤А╨╕╤А╨╛╨▓╨░╤В╤М ╨╕╤Е ╨╕╤Б╨┐╨╛╨╗╤М╨╖╨╛╨▓╨░╨╜╨╕╨╡");
+		System.out.println();
+		
+		
+		friend1.DisplayInfo();
+		account1.DisplayInfo();
+
+		System.out.println();
+
+		System.out.println(friend1.WhoIs());
+		System.out.println(account1.WhoIs());
+*/
+		System.out.println("10) ╨Я╤А╨╛╨┤╨╡╨╝╨╛╨╜╤Б╤В╤А╨╕╤А╨╛╨▓╨░╤В╤М ╤А╨░╨╖╨╗╨╕╤З╨╕╨╡ ╨╝╨╡╨╢╨┤╤Г ╨╝╨╡╨╗╨║╨╕╨╝ ╨╕ ╨│╨╗╤Г╨▒╨╛╨║╨╕╨╝ ╨║╨╛╨┐╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡╨╝:");
+		Friends friend1 = new Friends("Anton", "Antonov");
+		Friends friend2 = new Friends("Ivan", "Ivanov");
+
+		
+		friend2 = friend1;
+
+		System.out.println("╨Я╨╛╨▓╨╡╤А╤Е╨╜╨╛╤Б╤В╨╜╨░╤П ╨║╨╛╨┐╨╕╤П 1-╨│╨╛ ╨╛╨▒╤К╨╡╨║╤В╨░ ╨▓╨╛ 2-╨╛╨╣:");
+		friend1.DisplayInfo();
+		friend2.DisplayInfo();
+		System.out.println("");
+		System.out.println("╨Ш╨╖╨╝╨╡╨╜╨╡╨╜╨╕╨╡ 1-╨│╨╛ ╨╛╨▒╤К╨╡╨║╤В╨░, ╨░ 2-╨╛╨╣ ╨╜╨╡ ╤В╤А╨╛╨│╨░╨╡╤В╤Б╤П:");
+		friend1.Set("Anton", "Antonov");
+		friend1.DisplayInfo();
+		friend2.DisplayInfo();
+		System.out.println("");
+
+		friend1.Set("Vladimir", "Gerasimov");
+		friend2 = new Friends(friend1);
+
+		System.out.println("╨У╨╗╤Г╨▒╨╛╨║╨░╤П ╨║╨╛╨┐╨╕╤П 1-╨│╨╛ ╨╛╨▒╤К╨╡╨║╤В╨░ ╨▓╨╛ 2-╨╛╨╣:");
+		friend1.DisplayInfo();
+		friend2.DisplayInfo();
+		System.out.println("");
+		System.out.println("╨Ш╨╖╨╝╨╡╨╜╨╡╨╜╨╕╨╡ 1-╨│╨╛ ╨╛╨▒╤К╨╡╨║╤В╨░, ╨░ 2-╨╛╨╣ ╨╜╨╡ ╤В╤А╨╛╨│╨░╨╡╤В╤Б╤П:");
+		friend1.Set("Ivan", "Ivanov");
+		friend1.DisplayInfo();
+		friend2.DisplayInfo();
+		System.out.println("\n\n");
 
 	}
+
+
 }

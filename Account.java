@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 //Class Account
-public class Account
+public class Account extends Human implements IHuman
 {
 	//ACCOUNT
-	private String name = ""; //name
-	private String surname = ""; //surname
+	//private String name = ""; //name
+	//private String surname = ""; //surname
 	private String email = ""; //email
 	private String password = ""; //password
 	//FIGURE
@@ -26,8 +26,9 @@ public class Account
 	
 	public Account() //constructor
 {
-	 name = ""; //name
-	 surname = ""; //surname
+	super("", "");
+	//name = ""; //name
+	// surname = ""; //surname
 	 email = ""; //email
 	 password = ""; //password
 	 FigureFigure = 0;
@@ -47,7 +48,8 @@ public class Account
 
 	public Account(String NAME) //constructor 1
 {
-	 name = NAME; //name
+	 //name = NAME; //name
+	 super(NAME, "");
 	 surname = ""; //surname
 	 email = ""; //email
 	 password = ""; //password
@@ -68,8 +70,9 @@ public class Account
 
 	public Account(String NAME, String SURNAME, String EMAIL, String PASSWORD) //constructor all
 {
-	 name = NAME; //name
-	 surname = ""; //surname
+	super(NAME, SURNAME);
+	//name = NAME; //name
+	 //surname = ""; //surname
 	 email = ""; //email
 	 password = ""; //password
 	 FigureFigure = 0;
@@ -137,6 +140,27 @@ public void InitAccount(String NAME, String SURNAME, String EMAIL, String PASSWO
 	this.password = PASSWORD;
 }
 //Input
+@Override public void InpHuman() 
+{
+	String os = System.getProperty("os.name");
+        String consoleEncoding = System.getProperty("console.encoding", os.startsWith("Windows") ? "cp866" : "utf-8");
+        Scanner in = new Scanner(System.in, consoleEncoding);
+		
+	System.out.println("Please enter your name: ");
+	name = in.nextLine();
+	System.out.println("Please enter your surname: ");
+	surname = in.nextLine();
+	in.close();
+}
+//Output
+public void DisplayInfo() 
+{
+		System.out.println("Your name: " + name);
+		System.out.println("Your surname: " + surname);
+	System.out.println("");
+}
+
+
 public void InputAccount() 
 {
 	    String os = System.getProperty("os.name");
@@ -268,5 +292,14 @@ public void DeleteAccount()
 	this.MessagesfromWhom = "";
 	this.Messagesmessage = "";
 }
-	
+@Override public String WhoIs()
+{
+	return "пользователь";
+}
+
+
+public void SayHello()
+{
+	System.out.println( WhoIs() + " говорит привет!");
+}
 }
